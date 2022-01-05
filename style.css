@@ -1,0 +1,58 @@
+/*
+font-family: 'Bevan', cursive;
+font-family: 'Poppins', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+
+}
+.first-part-wraper{
+    display: flex;
+    justify-content: space-between;
+}
+.focas-mission-desc{
+    width: 45%;
+    margin-top: 6%;
+}
+.focas-mission-desc h1{
+    font-family:'Bevan', cursive ;
+    font-size: 50px;
+    padding-left: 25px;
+}
+.focus-mission-title{
+    border-left: 8px solid red;
+    border-radius: 5px 5px;
+}
+.focusMissHeading{
+    color: rgb(253, 186, 60);
+}
+.focas-mission-desc p{
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-top: 24px;
+    font-weight: 300;
+}
+.focas-mission-image{
+    width: 45%;
+}
+.focas-mission-image img{
+    width: 500px;
+    height: 500px;
+    margin-left: 50px;
+}
+.common-btn{
+    border: none;
+    background-color: rgb(140, 13, 190);
+    color: white;
+    font-size: 30px;
+    font-family:monospace ;
+    padding: 15px 60px;
+    border-radius: 7px;
+    margin: 20px 0px;
+}
